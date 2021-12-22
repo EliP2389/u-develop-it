@@ -14,12 +14,7 @@ VALUES
     'Need to resolve a merge conflict? The Git Gurus have your back. Nobody knows Git like these folks do.'
   );
 INSERT INTO
-  candidates (
-    first_name,
-    last_name,
-    party_id,
-    industry_connected
-  )
+  candidates (first_name, last_name, party_id, industry_connected)
 VALUES
   ('Ronald', 'Firbank', 1, 1),
   ('Virginia', 'Woolf', 1, 1),
